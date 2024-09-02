@@ -1,0 +1,37 @@
+.container_topo {
+    /* background-color: red; */
+    padding: 8px 8px;
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.logo {
+    width: 150px;
+    height: 40px;
+}
+.links {
+    text-decoration: none;
+    font-size: 18px;
+    display: flex;
+    color: #000;
+
+}
+.container_links {
+    /* background-color: aqua; */
+    width: 300px;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+@media (max-width: 480px){
+    .container_topo{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .logo{
+        margin-bottom: 20px;
+    }
+}

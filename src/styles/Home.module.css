@@ -1,0 +1,61 @@
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    /* background-color: brown; */
+}
+.SecaoCapa{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: aqua;
+    height: 79vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
+    background-image: url(../../public/capa.png);
+}
+.SecaoProdutos{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+.SecaoSobre {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+  background-color: rgba(235, 235, 235, 0.425);
+}
+.SecaoContato {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+  background-color: rgb(8, 0, 37);
+}
+.Rodape {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 15px;
+ padding-bottom: 15px;
+}
+@media (max-width: 480px) {
+  .SecaoCapa {
+    background-position: 63% center;
+    height: 500px;
+    
+  }
+  
+}

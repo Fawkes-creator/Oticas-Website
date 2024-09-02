@@ -1,0 +1,16 @@
+.container_texto {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    /* background-color: aqua; */
+    gap: 15px;
+    padding-top:75px;
+    padding-bottom: 60px;
+}
+.container_texto h2{
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+.container_texto p{
+    font-size: 19px;
+}

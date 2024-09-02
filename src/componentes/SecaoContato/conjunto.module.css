@@ -1,0 +1,87 @@
+.container_redes {
+    color: #fff;
+    /* background-color: rgb(121, 100, 10); */
+    display: flex;
+    width: 420px;
+    height: 120px;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.container_redes h4{
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+.container_redes p{
+    margin-bottom: 10px;
+}
+
+         /* Logos */
+
+.map::before {
+    content: "";
+    display: inline-block;
+    width: 18px; 
+    height: 18px; 
+    background-image: url('../../../public/local.png'); 
+    background-size: cover; 
+    margin-right: 10px; 
+    vertical-align: middle; 
+  }
+  .tel::before {
+    content: "";
+    display: inline-block;
+    width: 18px; 
+    height: 18px; 
+    background-image: url('../../../public/telefone.png'); 
+    background-size: cover; 
+    margin-right: 10px; 
+    vertical-align: middle; 
+  }
+  .email::before {
+    content: "";
+    display: inline-block;
+    width: 18px; 
+    height: 18px; 
+    background-image: url('../../../public/email.png'); 
+    background-size: cover; 
+    margin-right: 10px; 
+    vertical-align: middle; 
+  }
+  .fb::before {
+    content: "";
+    display: inline-block;
+    width: 18px; 
+    height: 18px; 
+    background-image: url('../../../public/fb.png'); 
+    background-size: cover; 
+    margin-right: 10px; 
+    vertical-align: middle; 
+  }
+  .inst::before {
+    content: "";
+    display: inline-block;
+    width: 18px; 
+    height: 18px; 
+    background-image: url('../../../public/ig.png'); 
+    background-size: cover; 
+    margin-right: 10px; 
+    vertical-align: middle; 
+  }
+  .twt::before {
+    content: "";
+    display: inline-block;
+    width: 18px; 
+    height: 18px; 
+    background-image: url('../../../public/tt.png'); 
+    background-size: cover; 
+    margin-right: 10px; 
+    vertical-align: middle; 
+  }
+  @media (max-width: 480px) {
+    .container_redes {
+      width: 80%;
+    }
+    .container_redes p, .container_redes h4{
+      font-size:  80%;
+    }
+  }
